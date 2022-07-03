@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(235, 235, 235);
+    color: black;
+    font-size: 18px;
+    height: 100%;
+    margin: 0;
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    margin: 0 20px 20px 20px;
+}
+td, th{
+    text-align: center;
+}
+
+th {
+    background: #1c1919;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #cecbd5;
+}
+
+tr:nth-child(odd) {
+    background: #f1e1e1;
+}
+
+button, input[type=submit] {
+    background-color: #00a769;
+    color: white;
+}
+
+form {
+    background-color: white;
+    width: 500px;
+    padding: 20px;
+    margin: 100px auto auto;
+    border: 1px solid black;
+    box-shadow: 0.25rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.normform {
+    background-color: #1c1919;
+    color: white;
+    width: auto;
+    margin: 0;
+}
+
+.normform label{
+    width: auto;
+}
+
+.right{
+    position: absolute;
+    right: 20px;
+}
+
+label {
+    width: 80px;
+    display: inline-block;
+}
+
+.marginbottom{
+    margin-bottom: 10px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+}
+
+#nav{
+    height: 40px;
+    background: #1c1919;
+    color: white;
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: #3737c9;
+}
+
+#statistics{
+    display: none;
+}
+
+#but {
+    margin: 0 20px 20px;
+}
